@@ -1,0 +1,124 @@
+
+  .nav-bar li{
+    float:right;
+    padding: 20px;
+    padding-top:0px;
+    font-size: 20px;
+    position:relative; 
+    bottom: 50px;
+}
+h1{
+    padding-top: 30px;
+}
+.real{
+  position: relative;
+  bottom: 180px;
+}
+.logo{
+  width:60px;
+  height: 60px;  
+}
+.Da{
+  position: relative;
+  bottom:250px;
+  left: 90px;
+  font-size: 30px;
+  color: bluE;
+  list-style: none;
+}
+.cards{
+  display:inline-flex;
+  padding: 40px;
+}
+.card2{
+  position: relative;
+  left: 150px;
+  transform: translateY(-900PX);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
+.card3{
+  position: relative;
+  left: 250px;
+}
+.button {
+  display: inline-block;
+ border-radius: 5px;
+ background-color: rgba(255, 64, 129, 0.9);
+ color: white;
+ height: 70px;
+ width: 250px;
+}
+.button:hover{
+  color: bisque;
+  background-color: brown;
+}
+.list{
+  display:flex;
+  margin: 40px;
+  list-style: none;
+}
+.D{
+    position: relative;
+    top: 90px;
+    left: 120px;
+    font-size: 30px;
+    color: bluE;
+    list-style: none;
+}
+.b{
+  position: relative;
+  top: 80px;
+  left: 500px;
+  font-size: 30px;
+  color: blue;
+}
+.ba{
+  position: relative;
+  bottom: 70px;
+  left: 500px;
+  font-size: 30px;
+  color: blue;
+}
+.c{
+  position: relative;
+  top: 80px;
+  left: 800px;
+  font-size: 30px;
+  color:blue;
+}
+.ca{
+  position: relative;
+  bottom: 180px;
+  left: 800px;
+  font-size: 30px;
+  color:blue;
+}
+a{
+  text-decoration: none;
+}
+/* page animation */
+.h1{
+  transform: translateY(-200px);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
+.real{
+  transform: translateX(1500px);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
+  .female-pics{
+    transform: translateY(-300PX);
+  animation: heading var(--animate-speed) forwards ease-in;
+  }
+
+/* keyframes */
+@keyframes heading{
+  to{
+      transform:translateY(0)
+  }
+  to{
+    transform:translateX(0)
+}
+}
+:root {
+  --animate-speed:2s    ;
+}
