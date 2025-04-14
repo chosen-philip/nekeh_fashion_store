@@ -76,6 +76,7 @@ p {
     position: relative;
     right:43px;
     bottom: 2px; 
+    z-index: 2;
   }
 
 .link:hover {

@@ -14,7 +14,7 @@ body{
     position: relative;
     bottom: 9px;
     right:5px;
-     
+     z-index: 2;
   }
 
     .old{
@@ -28,8 +28,7 @@ body{
         display: inline-flex;
         position:relative;
         bottom:40px;
-        left: 250px;
-        width: 45px;
+        left:-45px;  
     }
     .nav-bar li {
         padding: 15px;

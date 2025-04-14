@@ -26,6 +26,7 @@ p {
     position: relative;
     right: 5px;
     bottom: 10px; 
+    z-index: 2;
   }
 
 .photo {
